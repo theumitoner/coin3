@@ -8,9 +8,9 @@ An open source interface for UmtSwap -- a protocol for decentralized exchange of
 - Email: [support@umtswap.finance](mailto:support@umtswap.finance)
 - Telegram Media: [UmtswapFinance](https://t.me/umtswapfinance)
 
-## Accessing the SwapLiquidity Interface
+## Accessing the UmtSwap Interface
 
-To access the SwapLiquidity Interface, visit [umtswap.finance](https://umtswap.finance) which is hosted directly on gh-pages branch.
+To access the UmtSwap Interface, visit [umtswap.finance](https://umtswap.finance) which is hosted directly on gh-pages branch.
 
 
 ## Development
