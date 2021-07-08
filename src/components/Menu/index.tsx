@@ -79,7 +79,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/justliquidity/SwapLiquidity'
+const CODE_LINK = 'https://github.com/theumitoner/umtswap'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
@@ -112,23 +112,23 @@ export default function Menu() {
       </StyledMenuButton>
       {chainId && open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://swapliquidity.info/">
+          <MenuItem id="link" href="https://poocoin.app/tokens/0xd4cef86ab39d11e2976f9af819af5ee82b8de635">
             <PieChart size={14} />
-            Analytics
+            Chart
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/justliquidity">
+          <MenuItem id="link" href="https://t.me/ultramonkey">
             <Send size={14} />
             Telegram
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/justliquidity_media">
+          <MenuItem id="link" href="https://twitter.com/cryptoextender">
             <MessageCircle size={14} />
-            Telegram Media
+            Twitter
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href={getEtherscanLink(chainId, '0xbd67d157502A23309Db761c41965600c2Ec788b2', 'address')}>
+          <MenuItem id="link" href={getEtherscanLink(chainId, '0xd4cef86ab39d11e2976f9af819af5ee82b8de635', 'address')}>
             <BookOpen size={14} />
             BscScan Contract
           </MenuItem>
